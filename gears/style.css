@@ -28,5 +28,5 @@ a { color: var(--link); }
 .card details { border-bottom: 1px solid var(--line); padding: 14px 0; }
 .card details:last-child { border-bottom: 0; }
 summary { cursor: pointer; font-weight: 600; }
-.contact { display: inline-block; margin-top: 8px; padding: 12px 20px; border-radius: 999px; background: var(--brass); color: #1a1519; font-weight: 600; text-decoration: none; }
+.contact { display: inline-block; margin-top: 8px; padding: 12px 20px; border-radius: 999px; background: var(--brass); color: #1a1519; font-weight: 600; text-decoration: none; max-width: 100%; overflow-wrap: anywhere; }
 nav { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); display: flex; gap: 20px; font-size: 15px; }
